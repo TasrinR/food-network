@@ -1,0 +1,225 @@
+body{
+    margin:0;
+    padding:0;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+.name{
+    width:40%;
+    padding-left:7%;
+    font-size: 25px;
+
+}
+.top-menu{
+    width:50%;
+}
+.top-menu li{
+    padding-top: 5%;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5%;
+}
+.top-menu li a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    width:100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1em 0;
+    box-sizing: border-box;
+    
+}
+.hero-content{
+    width: 90%;
+    margin-left: 7%;
+    color: rgb(63, 60, 60);
+}
+.orange{
+    color:orange;
+}
+.hero-content h1{
+    font-size:55px;
+    font-family: 'Bona Nova', serif;
+}
+.hero-content p{
+    margin-bottom:10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(37, 30, 30);
+
+}
+.hero-image{
+    width:100%;
+    height: 100%;
+    background-image: url('./images/female/Group\ 8425.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    color: antiquewhite;
+    background-image: linear-gradient(orange,tomato);
+    padding:15px 30px;
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about{
+    width:100%;
+    height: 70vh;
+    display: flex;
+    font-family: 'Uchen', serif;
+    margin-top:5%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 2em 0;
+    box-sizing: border-box;
+    background-image: url('./images/shapes/7.png');
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-image{
+    width:100%;
+    height: 100%;
+    background-image: url('./images/female/Person\ Image.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+}
+.about-content{
+    width:100%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top:-5%;
+}
+.about-content h1{
+    font-size: 40px;
+}
+.about-content p{
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+.items-content{
+    font-family: monospace;
+    font-size: 18px;
+}
+.items{
+    width:100%;
+    height: 100vh;
+    margin-top:5%;
+    text-align:center;
+    padding: 0 1em;
+    box-sizing: border-box;
+}
+.items-show{
+    width: 90%;
+    height: 70vh;
+    margin:auto;
+    display: flex;
+}
+.menus{
+    width:33%;
+    height: 100%;
+    margin-left: 2%;
+    margin-right:2%;
+    margin-top:5%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menus a{
+    text-decoration: none;
+    color: black;
+}
+.menus p{
+    padding-bottom: 30px;
+}
+.menus img{
+    width:100%;
+    height:65%;
+    border-radius: 15px;
+}
+.follow{
+    width:90%;
+    height: 25vh;
+    margin: 5% 5%;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.numbers{
+    width: 33%;
+    text-align: center;
+}
+
+.form{
+    width: 100%;
+    height: 60vh;
+    background: rgb(175, 130, 45);
+    display: flex;
+    box-sizing: border-box;
+}
+.picture{
+    width:50%;
+    background-image: url(./images/female/Person\ Image.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form1{
+    padding: 30px 0;
+    width:45%;
+    height: 100%;
+    display: inline-block;
+    margin-right: 4%;
+}
+.division{
+    width: 100%;
+    height: 12%;
+    margin-bottom: 1%;
+    color: rgb(29, 22, 22);
+    font-size: 20px; 
+    margin-bottom: 2%;
+}
+.division input{
+    border:1px solid white;
+    border-radius: 10px;
+    width: 90%;
+    height: 20px;
+    background: transparent;
+    color: white;
+}
+.division1{
+    width:100%;
+    height:30%;
+    color: rgb(29, 22, 22);
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+.division1 input{
+    border:1px solid white;
+    border-radius: 10px;
+    width: 90%;
+    height: 70%;
+    background: transparent;
+    color: blanchedalmond;
+}
+.footer{
+    width:100%;
+    height:20vh;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 20px;
+    text-align:center;
+}
